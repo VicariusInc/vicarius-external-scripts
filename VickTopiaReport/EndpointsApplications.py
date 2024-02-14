@@ -3,6 +3,12 @@
 import requests
 import json
 
+parser = argparse.ArgumentParser(description='Args for VikyTopiaReport')
+parser.add_argument('-k', '--api-key', dest='apiKey', action='store', required=True, help='Topia API key')
+
+# Get the Credentials
+apikey = args.apiKey
+
 headers = {
     'Accept': 'application/json',
     'Vicarius-Token': apikey,
