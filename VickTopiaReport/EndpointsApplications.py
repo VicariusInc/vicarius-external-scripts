@@ -5,7 +5,7 @@ import json
 
 headers = {
     'Accept': 'application/json',
-    'Vicarius-Token': 'iEjmgXlUINVtggO8q1fkTYm3HMQDnniZXcVcaes1kzjbNeAU6Fs3sc0WVLXQUMgJt6K0wIkWJFgBG8X1IJIHRyaaZr3djtFkGGaid5o1q8W895sPm0obLo03WuCZzWcZtn7ECBGKwYiuID571hBe6dpiQVcHw4VsizzcN43dtNlxzXPmnbFOWJaFN6UKJcOy8JgIa2X0znBAtHcwdz0fQcpXzrS6BkgaAyMP0ZlcnNqQrAZXDD11vsldTNFAf6Y3',
+    'Vicarius-Token': apikey,
 }
 
 response = requests.get(
